@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: NorseBold;
+  src: url('./font/Norse-Bold.otf');
+}
+
+#ODIN {
+  font-family: NorseBold;
+}

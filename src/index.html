@@ -8,22 +8,81 @@
   <body>
     <main class="flex">
       <section
-        class="bg-contain"
+        class="bg-cover w-1/3 h-screen"
         style="background-image: url(./images/halie-west.jpg)"
       >
-        <div>
-          <img src="./images/odin-lined.png" alt="Picture of Odin" /><span
-            >ODIN</span
-          >
+        <div
+          class="flex justify-center items-center w-full bg-black/40 p-1 mt-[25vh]"
+        >
+          <img
+            class="relative z-10"
+            style="max-width: 90px"
+            src="./images/odin-lined.png"
+            alt="Picture of Odin"
+          />
+          <p id="ODIN" class="relative z-10 text-5xl text-white">ODIN</p>
         </div>
       </section>
-      <section>
-        <p>
+      <section class="w-2/3 bg-slate-100">
+        <p class="px-4 my-4">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta
           aliquam blanditiis eligendi unde quae consectetur, repellendus rerum
           ex id iste repudiandae sit incidunt ad facilis minima magni officiis
           architecto exercitationem.
         </p>
+        <p class="px-4 my-4">Lorem ipsum dolor sit amet.</p>
+        <form
+          action=""
+          class="p-4 grid grid-cols-2 bg-white shadow-lg shadow-black-500/50"
+        >
+          <div>
+            <label for="" class="block">LABEL</label
+            ><input
+              type="text"
+              class="rounded-md w-2/3 p-1 border border-slate-400 focus:outline-none"
+            />
+          </div>
+          <div>
+            <label for="" class="block">LABEL</label
+            ><input
+              type="text"
+              class="rounded-md w-2/3 p-1 border border-slate-400 focus:outline-none"
+            />
+          </div>
+          <div>
+            <label for="" class="block">LABEL</label
+            ><input
+              type="text"
+              class="rounded-md w-2/3 p-1 border border-slate-400 focus:outline-none"
+            />
+          </div>
+          <div>
+            <label for="" class="block">LABEL</label
+            ><input
+              type="text"
+              class="rounded-md w-2/3 p-1 border border-slate-400 focus:outline-none"
+            />
+          </div>
+          <div>
+            <label for="" class="block">LABEL</label
+            ><input
+              type="text"
+              class="rounded-md w-2/3 p-1 border border-slate-400 focus:outline-none"
+            />
+          </div>
+          <div>
+            <label for="" class="block">LABEL</label
+            ><input
+              type="text"
+              class="rounded-md w-2/3 p-1 border border-slate-400 focus:outline-none"
+            />
+          </div>
+        </form>
+        <button
+          class="ml-4 mt-5 p-2 rounded-md text-white bg-green-500 hover:bg-sky-500 transition-colors"
+        >
+          SUBMIT
+        </button>
       </section>
     </main>
   </body>
