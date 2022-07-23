@@ -1,0 +1,23 @@
+{
+  "name": "tailwind-signup-form",
+  "version": "1.0.0",
+  "description": "A project to practice tailwind form and form validation",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mattwwilson34/tailwind-signup-form.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mattwwilson34/tailwind-signup-form/issues"
+  },
+  "homepage": "https://github.com/Mattwwilson34/tailwind-signup-form#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.6"
+  }
+}
